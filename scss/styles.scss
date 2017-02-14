@@ -1,5 +1,36 @@
-body { padding-top: 150px; }
+// Aquestes regles, quan sigui el cas, matxacaran les que proporciona Bootstrap
+
+// Variables
+
+$navbar_color: #222;
+
+// Regles
+
+body { 
+	// padding-top: 136px;
+	padding-top: 186px;
+}
+
+.navbar { background: $navbar_color; }
+
+.footer { margin-top: 4em; }
+
+.embed-responsive { margin-bottom: 2em; }
+
+img.media-object {
+	width: 64px;
+}
+
+.media { margin-bottom: 2em;}
 
 @media (min-width:768px) {
-	body { padding-top: 50px; }
+	body { 
+		padding-top: 50px; 
+	}
+}
+
+@media (max-width:768px) {
+	.navbar-brand { 
+		float: none;	// per evitar que el primer element de la navegació se'm posi al costat
+	}
 }

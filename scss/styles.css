@@ -1,8 +1,26 @@
 body {
-  padding-top: 150px; }
+  padding-top: 186px; }
+
+.navbar {
+  background: #222; }
+
+.footer {
+  margin-top: 4em; }
+
+.embed-responsive {
+  margin-bottom: 2em; }
+
+img.media-object {
+  width: 64px; }
+
+.media {
+  margin-bottom: 2em; }
 
 @media (min-width: 768px) {
   body {
     padding-top: 50px; } }
+@media (max-width: 768px) {
+  .navbar-brand {
+    float: none; } }
 
 /*# sourceMappingURL=styles.css.map */
